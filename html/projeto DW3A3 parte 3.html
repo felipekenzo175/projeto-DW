@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\User\Desktop\projeto DW3A3\src\css\projeto DW3A3.css">
+    <link rel="shortcut icon" href="C:\Users\User\Desktop\projeto DW3A3\src\imagens\favicon.ico" type="image/x-icon"> <!-- utilizei o site favicon.cc para fazer o ícone -->
+    <title>GOETZ SHOW & TIMES</title>
+</head>
+<body>
+    <div class="container"> <!-- Utilizei o Grid Layout -->
+        <div class="header"> <!-- Cabeçalho -->
+            <div class="titulo">
+                <h1>
+                    GOETZ THEATRE SHOWS & SHOWTIMES
+                    FOR MOVIE INFORMATION 24 HOURS A DAY
+                </h1>
+            </div>
+        </div>
+        <div class="menu"> <!-- Menu -->
+            <ul>
+                <div class="home">
+                    <li><a href="projeto DW3A3 parte 1.html">HOME</a></li>
+                </div>
+                <div class="info">
+                    <li><a href="projeto DW3A3 parte 2.html">INFO</a></li>
+                </div>
+                <div class="forms">
+                    <li><a href="projeto DW3A3 parte 3.html">FORMS</a></li>
+                </div>
+                <div class="imagesnew">
+                    <li><a href="projeto DW3A3 parte 4.html">IMAGES NEW</a></li>
+                </div>
+                <div class="imagesold">
+                <li><a href="projeto DW3A3 parte 5.html">IMAGES OLD</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="main"> <!-- Informações da Esquerda -->
+        <form>
+            <div class="personalinformation">
+                <fieldset id="personal">
+                    <legend> Personal Information </legend>
+                    <label for="firstname_id">First Name:</label>
+                    <input type="text" name="firstname" id="firstname_id" placeholder="Ex: Felipe" title="Message Help">
+                    <br>
+                    <label for="lastname_id">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname_id" placeholder="Ex: Kenzo" title="Message Help">
+                    <br>
+                    <label for="birthdate_id">Birth Date:</label>
+                    <input type="datetime" name="birthdate" id="birthdate_id"
+                    placeholder="Ex: 12/22/2002" title="Message Help">
+                    <br>
+                    <label for="state_id">State:</label>
+                    <input type="text" name="state" id="state_id" list="states">
+                    <datalist id="states" placeholder="Ex: Other State" title="Message Help">
+                        <option value="Alabama" label="Alabama">
+                        <option value="Alasca" label="Alasca">
+                        <option value="Arkansas" label="Arkansas">
+                        <option value="Arizona" label="Arizona">
+                        <option value="Califórnia" label="Califórnia">
+                        <option value="Cansas" label="Cansas">
+                        <option value="Carolina do Norte" label="Carolina do Norte">
+                        <option value="Carolina do Sul" label="Carolina do Sul">
+                        <option value="Colorado" label="Colorado">
+                        <option value="Conecticute" label="Conecticute">
+                        <option value="Dacota do Norte" label="Dacota do Norte">
+                        <option value="Dacota do Sul" label="Dacota do Sul">
+                        <option value="Delaware" label="Delaware">
+                        <option value="Flórida" label="Flórida">
+                        <option value="Geórgia" label="Geórgia">
+                        <option value="Havaí" label="Havaí">
+                        <option value="Idaho" label="Idaho">
+                        <option value="Ilha de Rodes" label="Ilha de Rodes">
+                        <option value="Ilinóis" label="Ilinóis">
+                        <option value="Indiana" label="Indiana">
+                        <option value="Iowa" label="Iowa">
+                        <option value="Kentucky" label="Kentucky">
+                        <option value="Luisiana" label="Luisiana">
+                        <option value="Maine" label="Maine">
+                        <option value="Marilândia" label="Marilândia">
+                        <option value="Massachussets" label="Massachussets">
+                        <option value="Michigan" label="Michigan">
+                        <option value="Minesota" label="Minesota">
+                        <option value="Mississípi" label="Mississípi">
+                        <option value="Missúri" label="Missúri">
+                        <option value="Montana" label="Montana">
+                        <option value="Nebrasca" label="Nebrasca">
+                        <option value="Nevada" label="Nevada">
+                        <option value="Nova Hampshire" label="Nova Hampshire">
+                        <option value="Nova Jérsei" label="Nova Jérsei">
+                        <option value="Nova Iorque" label="Nova Iorque">
+                        <option value="Novo México" label="Novo México">
+                        <option value="Oklahoma" label="Oklahoma">
+                        <option value="Ohio" label="Ohio">
+                        <option value="Óregon" label="Óregon">
+                        <option value="Pensilvânia" label="Pensilvânia">
+                        <option value="Tenessi" label="Tenessi">
+                        <option value="Texas" label="Texas">
+                        <option value="Utah" label="Utah">
+                        <option value="Vermonte" label="Vermonte">
+                        <option value="Virgínia" label="Virgínia">
+                        <option value="Virgínia Ocidental" label="Virgínia Ocidental">
+                        <option value="Washington" label="Washington">
+                        <option value="Wisconsin" label="Wisconsin">
+                        <option value="Wyoming" label="Wyoming">
+                        <option value="Other State" label="Other State">
+                    </datalist>
+                </fieldset>
+            </div>
+        </div>
+        <div class="right"> <!-- Informações da Direita -->
+            <div class="personalopinion">
+                <fieldset id="personal opinion">
+                    <legend>Personal Opinion About Goetz</legend>
+                    <input type="radio" name="criterioavaliacao" id="muitobom">
+                    <label for="muitobom">Very Good</label>
+                    <input type="radio" name="criterioavaliacao" id="bom">
+                    <label for="bom">Good</label>
+                    <input type="radio" name="criterioavaliacao" id="mediano">
+                    <label for="mediano">Average</label>
+                    <input type="radio" name="criterioavaliacao" id="ruim">
+                    <label for="ruim">Poor</label>
+                    <input type="radio" name="criterioavaliacao" id="muitoruim">
+                    <label for="muitoruim">Terrible</label>
+                    <br>
+                    <label for="texto_id">Tell us about your experience at Goetz:</label>
+                    <br>
+                    <textarea name="texto" id="texto_id" maxlength="100"></textarea>
+                    <br>
+                    <button type="submit" id="botao_id">
+                        Enviar
+                    </button>   
+                </fieldset>
+            </div>
+        </form>
+        </div>
+        <div class="footer"> <!-- Rodapé -->
+            <p>
+                <a href="https://www.facebook.com/pages/category/Movie-Theater/Goetz-Theatre-and-Sky-vu-Drive-In-Show-Times-and-Movie-Information-354347178034930/" target="_blank" rel="external">Click here &#10137 <img src="C:\Users\User\Desktop\projeto DW3A3\src\imagens\icone-facebook.png"></a> to visit our page on Facebook.
+            </p> <!-- Criando um link externo para acesso para o facebook, os parâmetros target="_blank" e rel="external" abrem uma nova guia ao invés de sobrepor a do site. -->
+            <p>
+                <a href="https://www.instagram.com/explore/locations/354347178034930/goetz-theatre-and-sky-vu-drive-in-show-times-and-movie-information/" target="_blank" rel="external">Click here &#10137 <img src="C:\Users\User\Desktop\projeto DW3A3\src\imagens\icone-instagram.png"></a> to visit our Instagram page.
+            </p> <!-- Criando um link externo para acesso para o Instagram, os parâmetros target="_blank" e rel="external" abrem uma nova guia ao invés de sobrepor a do site. -->
+            <p>
+                <a href="https://www.google.com/maps/dir//Goetz+Theatre,+1704+11th+St,+Monroe,+WI+53566,+Estados+Unidos/@42.5969028,-89.6481773,15z/data=!4m12!1m2!2m1!1sgoetz+theatre+show+times!4m8!1m0!1m5!1m1!1s0x8807dec4948f455f:0x3e7adae32213248e!2m2!1d-89.6383899!2d42.6010393!3e3" target="_blank" rel="external">Click here &#10137 <img src="C:\Users\User\Desktop\projeto DW3A3\src\imagens\icone-google.png"></a> to calculate the route to Goetz.
+            </p> <!-- Criando um link externo para acesso para o Google Maps, os parâmetros target="_blank" e rel="external" abrem uma nova guia ao invés de sobrepor a do site. -->
+        </div>
+    </div>
+    <script src="C:\Users\User\Desktop\projeto DW3A3\src\js\projeto DW3A3.js"></script>
+</body>
+</html>

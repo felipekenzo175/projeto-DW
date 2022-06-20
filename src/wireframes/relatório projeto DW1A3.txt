@@ -1,0 +1,50 @@
+site: http://www.goetzskyvu.com/GOETZ_THEATRE/GOETZ_SHOW_&_TIMES.html
+Avaliação segundo os Critérios Ergonômicos de Usabilidade.
+1- Consistência Ação-Efeito.
+Não existe disponibilidade para entrada de dados, sendo assim, não há tambem modelos para entrada de dados, além disso, a disponibilidade para acionamento de funções está muito confusa.
+2- Agrupamento e distinção por
+localização.
+Não me parece ter organização no site, as informações e acionamentos de funções como links estão todos jogados na tela.
+3- Agrupamento e distinção por formato.
+Além do menu, não existe uma clara distinção visual de áreas, campos e legenda.
+4- Feedback.
+Não existem mecanismos de entrada de dados, porém existe um feedback quase imperceptível quando vc passa por um dos tópicos do menu ele escurece a cor.
+5- Leitura de Cor.
+Existem ,no site, muitas cores que estão dispersas e que dão muito contraste, causando tonturas quando vc fica muito tempo olhando para ele. 
+6- Capacidade de Leitura.
+Existem inumeras fontes no site, além disso, as informações estão sobrepostas umas nas outras, dificultando ainda mais a leitura, e o cursor fica quase invisível no meio de tanta bagunça.
+7- Facilitação.
+Existe muitos elementos e muita informação no site, o que faz com que o usuário precise ter uma carga de trabalho perceptiva e cognitiva muito grande e acaba por não ter uma boa eficiência no cumprimento das tarefas.
+8- Ações Mínimas.
+Este site não trabalha com ações mínimas, pois assim que vc acessa o menu do site ele te redireciona para uma outra janela do site que não tem o menu, fazendo com que vc tenha que voltar na página anterior para poder ter acesso ao menu e assim poder navegapelo site.
+9- Densidade da Informação.
+A tela está lotada de informações e nem todas elas são uteis para voce navegar no site ou entender sobre o estabelecimento.
+10- Ação Explícita do Usuário.
+Existe um marcador de ação quase imperceptível no menu.
+11- Controle dos Usuário.
+Não existe controle de usuário.
+12- Flexibilidade.
+Não existe flexibilidade.
+13- Experiências do Usuário.
+Usuários iniciantes ficariam perdidos no site.
+14- Proteção de Erro.
+Não existe entrada de dados.
+15- Qualidade das Mensagens de erro.
+Não existe entrada de dados.
+16- Correção do Erro.
+Não existe entrada de dados.
+17- Consistência.
+O site não tem consistência de layout, inclusive o menu some do nada.
+18- Consistência Tarefa-Ação.
+O menu leva para outra página no site, então ele cumpre a sua função.
+19- Significados dos Códigos.
+O título está distinto e coerente.
+20- Compatibilidade.
+A estrutura de dados não é natural para o usuário.
+21- Ajuda e Documentação / Capacidade
+de Aprendizado.
+Não sei se o site tem documentação, mas é bem provável que ele não foi realizado de forma concisa.
+22- Navegação Visível.
+Não existe nenhum tipo de indicação no site.
+23- Modelo claro de navegação.
+O site não tem um modelo claro de navegação.
