@@ -1,6 +1,7 @@
 * { /* zerando o CSS */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 a:link{
     text-decoration: none;
+    color: black;
 }
 
 a:visited{
@@ -40,7 +42,8 @@ a:hover{
     font-family: fantasy;
     grid-area: header; /* indicando um elemento do meu grid template area*/
     background-color: rgb(197, 153, 112);
-    color: black;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(160, 160, 160);
 }
 
 .menu {
