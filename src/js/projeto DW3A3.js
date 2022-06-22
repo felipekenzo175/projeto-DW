@@ -14,6 +14,8 @@ btn.addEventListener("click", function(e) {
 
     const texto_id = document.querySelector("#texto_id");
 
+    const radio_input = document.querySelector('input[name="criterioavaliacao"]:checked');
+
     const value = firstname_id.value;
 
     const value2 = lastname_id.value;
@@ -24,6 +26,8 @@ btn.addEventListener("click", function(e) {
 
     const value5 = texto_id.value;
 
+    const value6 = radio_input.value;
+
     console.log(value);
 
     console.log(value2);
@@ -33,5 +37,7 @@ btn.addEventListener("click", function(e) {
     console.log(value4);
 
     console.log(value5);
+
+    console.log(value6);
 
 });

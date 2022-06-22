@@ -13,6 +13,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+li {
+    list-style-type: none;
+}
+
 a:link{
     text-decoration: none;
     color: black;
@@ -57,30 +61,40 @@ a:hover{
     background-color:   rgb(197, 153, 112);
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .info {
     background-color:  rgb(197, 153, 112);
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .forms{
     background-color:   rgb(197, 153, 112);
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .imagesnew{
     background-color:  rgb(197, 153, 112);
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .imagesold{
     background-color:  rgb(197, 153, 112);
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .main {
